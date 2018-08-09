@@ -29,7 +29,7 @@
   </div>
 </template>
 <script>
-import logo from '@/assets/img/logo.png'
+// import logo from '@/assets/img/logo.png'
 import constant from '@/constant'
 import { mapState } from 'vuex'
 
@@ -39,7 +39,7 @@ export default {
   name: 'login',
   data () {
     return {
-      logo,
+      // logo,
       processing: false,
       nameInputState: 0,
       pswInputState: 0,
